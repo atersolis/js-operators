@@ -34,9 +34,9 @@ console.log(importantTitle("hello world"));
 //                  Partial functions
 // ======================================================
 let concat3 = (a, b, c) => `${a}${b}${c}`;
-let coma = concat3[x](_, ",", _);
+let comma = concat3[x](_, ",", _);
 // foo,bar
-console.log(coma("foo", "bar"));
+console.log(comma("foo", "bar"));
 
 // ======================================================
 //                  Function pipe
